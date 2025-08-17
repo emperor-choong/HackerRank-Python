@@ -3,10 +3,10 @@
 The provided code stub will read in a dictionary containing key/value pairs of name: [marks] for a list of students. Print the average of the marks array for the student name provided, showing 2 places after the decimal.
 
 **Example**  
-$\text{marks key:value pairs are}$  
-$\text{'alpha'}: [20, 30, 40]$  
-$\text{'beta'}: [30, 50, 70]$  
-query_name $= \text{'beta'}$  
+marks key:value pairs are  
+'alpha': [20, 30, 40]  
+'beta': [30, 50, 70]  
+query_name = 'beta' 
 
 The **query_name** is 'beta'. beta's average score is $(30 + 50 + 70)/3 = 50.0$.
 
@@ -17,7 +17,7 @@ The final line contains **query_name**, the name of a student to query.
 **Constraints**
 - $2 \le n \le 10$
 - $0 \le marks[i] \le 100$
-- $\text{length of marks arrays} = 3$
+- length of marks arrays = 3
 
 **Output Format**  
 Print one line: The average of the marks obtained by the particular student correct to 2 decimal places.

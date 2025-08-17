@@ -11,10 +11,10 @@ We can split $s$ into $\frac{n}{k}$ substrings where each subtring, $t_i$, consi
 Given $s$ and $k$, print $\frac{n}{k}$ lines where each line $i$ denotes string $u_i$.
 
 **Example**  
-$s = \text{`AAABCADDE'}$  
+$s$ = 'AAABCADDE'   
 $k = 3$
 
-There are three substrings of length $3$ to consider: 'AAA', 'BCA' and 'DDE'. The first substring is all 'A' characters, so $u_1 = \text{'A'}$. The second substring has all distinct characters, so $u_2 = \text{'BCA'}$. The third substring has $2$ different characters, so $u_3 = \text{'DE'}$. Note that a subsequence maintains the original order of characters encountered. The order of characters in each subsequence shown is important.
+There are three substrings of length $3$ to consider: 'AAA', 'BCA' and 'DDE'. The first substring is all 'A' characters, so $u_1$ = 'A'. The second substring has all distinct characters, so $u_2$ = 'BCA'. The third substring has $2$ different characters, so $u_3$ = 'DE'. Note that a subsequence maintains the original order of characters encountered. The order of characters in each subsequence shown is important.
 
 **Function Description**  
 Complete the `merge_the_tools` function in the editor below.  
