@@ -4,9 +4,9 @@ The provided code stub will read in a dictionary containing key/value pairs of n
 
 **Example**  
 $\text{marks key:value pairs are}$  
-$\text{`alpha'}: [20, 30, 40]$  
-$\text{`beta'}: [30, 50, 70]$  
-$query\_name = \text{`beta'}$  
+$\text{'alpha'}: [20, 30, 40]$  
+$\text{'beta'}: [30, 50, 70]$  
+$query\_ name = \text{'beta'}$  
 
 The **query_name** is 'beta'. beta's average score is $(30 + 50 + 70)/3 = 50.0$.
 
