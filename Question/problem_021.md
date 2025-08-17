@@ -14,11 +14,11 @@ Complete the `wrap` function in the editor below.
 
 **Input Format**  
 The first line contains a string, $string$.  
-The second line contains the width, $max\_ width$.
+The second line contains the width, max_width.
 
 **Constraints**
 - $0 < len(string) < 1000$
-- $0 < max\_ width < len(string)$
+- $0 <$ max_width $< len(string)$
 
 **Sample Input 0**
 ```python
