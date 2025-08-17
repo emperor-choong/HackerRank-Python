@@ -1,3 +1,5 @@
+# Write a function 
+
 An extra day is added to the calendar almost every four years as February 29, and the day is called a leap day. It corrects the calendar for the fact that our planet takes approximately 365.25 days to orbit the sun. A leap year contains a leap day.
 
 In the Gregorian calendar, three conditions are used to identify leap years:
@@ -13,10 +15,10 @@ Given a year, determine whether it is a leap year. If it is a leap year, return 
 Note that the code stub provided reads from STDIN and passes arguments to the `is_leap` function. It is only necessary to complete the `is_leap` function.
 
 **Input Format**  
-Read **year**, the year to test.
+Read $year$, the year to test.
 
 **Constraints**  
-**1900 &le; year &le; 10<sup>5</sup>**
+$1900 \le year \le 10^5$
 
 **Output Format**  
 The function must return a Boolean value (True/False). Output is handled by the provided code stub.

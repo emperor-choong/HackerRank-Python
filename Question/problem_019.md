@@ -1,6 +1,8 @@
+# String Validators
+
 Python has built-in string validation methods for basic data. It can check if a string is composed of alphabetical characters, alphanumeric characters, digits, etc.
 
-**str.isalnum()**  
+[str.isalnum()](https://docs.python.org/2/library/stdtypes.html#str.isalnum)  
 This method checks if all the characters of a string are alphanumeric (a-z, A-Z and 0-9).
 ```python
 >>> print 'ab123'.isalnum()
@@ -9,7 +11,7 @@ True
 False
 ```
 
-**str.isalpha()**  
+[str.isalpha()](https://docs.python.org/2/library/stdtypes.html#str.isalpha)  
 This method checks if all the characters of a string are alphabetical (a-z and A-Z).
 ```python
 >>> print 'abcD'.isalpha()
@@ -18,7 +20,7 @@ True
 False
 ```
 
-**str.isdigit()**  
+[str.isdigit()](https://docs.python.org/2/library/stdtypes.html#str.isdigit)  
 This method checks if all the characters of a string are digits (0-9).
 ```python
 >>> print '1234'.isdigit()
@@ -27,7 +29,7 @@ True
 False
 ```
 
-**str.islower()**  
+[str.islower()](https://docs.python.org/2/library/stdtypes.html#str.islower)  
 This method checks if all the characters of a string are lowercase characters (a-z).
 ```python
 >>> print 'abcd123#'.islower()
@@ -36,7 +38,7 @@ True
 False
 ```
 
-**str.isupper()**  
+[str.isupper()](https://docs.python.org/2/library/stdtypes.html#str.isupper)  
 This method checks if all the characters of a string are uppercase characters (A-Z).
 ```python
 >>> print 'ABCD123#'.isupper()
@@ -46,21 +48,21 @@ False
 ```
 
 **Task**  
-You are given a string **S**.  
-Your task is to find out if the string **S** contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
+You are given a string $S$.  
+Your task is to find out if the string $S$ contains: alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters.
 
 **Input Format**  
-A single line containing a string **S**.
+A single line containing a string $S$.
 
 **Constraints**  
-**0 &lt; len(S) &lt; 1000**
+$0 < len(S) < 1000$
 
 **Output Format**  
-In the first line, print `True` if **S** has any alphanumeric characters. Otherwise, print `False`.  
-In the second line, print `True` if **S** has any alphabetical characters. Otherwise, print `False`.  
-In the third line, print `True` if **S** has any digits. Otherwise, print `False`.  
-In the fourth line, print `True` if **S** has any lowercase characters. Otherwise, print `False`.  
-In the fifth line, print `True` if **S** has any uppercase characters. Otherwise, print `False`.
+In the first line, print `True` if $S$ has any alphanumeric characters. Otherwise, print `False`.  
+In the second line, print `True` if $S$ has any alphabetical characters. Otherwise, print `False`.  
+In the third line, print `True` if $S$ has any digits. Otherwise, print `False`.  
+In the fourth line, print `True` if $S$ has any lowercase characters. Otherwise, print `False`.  
+In the fifth line, print `True` if $S$ has any uppercase characters. Otherwise, print `False`.
 
 **Sample Input**
 ```python

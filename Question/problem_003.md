@@ -1,12 +1,14 @@
+# Arithmetic Operators
+
 **Task**  
-The provided code stub reads two integers from STDIN, **a** and **b**. Add code to print three lines where:
+The provided code stub reads two integers from STDIN, $a$ and $b$. Add code to print three lines where:
 1. The first line contains the sum of the two numbers.
 2. The second line contains the difference of the two numbers (first - second).
 3. The third line contains the product of the two numbers.
 
 **Example**  
-**a = 3**  
-**b = 5**
+$a = 3$  
+$b = 5$
 
 Print the following:
 ```python
@@ -16,12 +18,12 @@ Print the following:
 ```
 
 **Input Format**  
-The first line contains the first integer, **a**.  
-The second line contains the second integer, **b**.
+The first line contains the first integer, $a$.  
+The second line contains the second integer, $b$.
 
 **Constraints**  
-**1 &le; a &le; 10<sup>10</sup>**  
-**1 &le; b &le; 10<sup>10</sup>**
+$1 \le a \le 10^{10}$  
+$1 \le b \le 10^{10}$  
 
 **Output Format**  
 Print the three lines as explained above.
@@ -40,6 +42,6 @@ Print the three lines as explained above.
 ```
 
 **Explanation 0**  
-**3 + 2 => 5**  
-**3 - 2 => 1**  
-**3 * 2 => 6**
+$3 + 2 \Rightarrow 5$  
+$3 - 2 \Rightarrow 1$  
+$3 * 2 \Rightarrow 6$
