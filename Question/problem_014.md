@@ -17,10 +17,10 @@ Complete the `swap_case` function in the editor below.
 - string: the modified string
 
 **Input Format**  
-A single line containing a string $s$.
+A single line containing a string **s**.
 
 **Constraints**  
-$0 < len(s) \le 1000$
+0 < len(s) ≤ 1000
 
 **Sample Input 0**
 ```python

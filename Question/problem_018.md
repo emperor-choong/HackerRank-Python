@@ -8,7 +8,7 @@ In this challenge, the user enters a string and a substring. You have to print t
 The first line of input contains the original string. The next line contains the substring.
 
 **Constraints**  
-$1 \le len(string) \le 200$
+1 ≤ len(string) ≤ 200
 
 Each character in the string is an ascii character.
 
@@ -28,7 +28,7 @@ CDC
 
 **Concept**  
 There are a couple of new concepts:  
-In Python, the length of a string is found by the function `len(s)`, where $s$ is the string.
+In Python, the length of a string is found by the function `len(s)`, where **s** is the string.
 To traverse through the length of a string, use a for loop:
 
 ```python
@@ -41,7 +41,7 @@ A range function is used to loop over some length:
 range (0, 5)
 ```
 
-Here, the range loops over $0$ to $4$. $5$ is excluded.
+Here, the range loops over **0** to **4**. **5** is excluded.
 
 
 

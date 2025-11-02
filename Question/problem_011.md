@@ -8,15 +8,15 @@ marks key:value pairs are
 'beta': [30, 50, 70]  
 query_name = 'beta' 
 
-The **query_name** is 'beta'. beta's average score is $(30 + 50 + 70)/3 = 50.0$.
+The **query_name** is 'beta'. beta's average score is (30 + 50 + 70)/3 = 50.0.
 
 **Input Format**  
-The first line contains the integer $n$, the number of students' records. The next $n$ lines contain the names and marks obtained by a student, each value separated by a space.  
+The first line contains the integer **n**, the number of students' records. The next **n** lines contain the names and marks obtained by a student, each value separated by a space.  
 The final line contains **query_name**, the name of a student to query.
 
 **Constraints**
-- $2 \le n \le 10$
-- $0 \le marks[i] \le 100$
+- 2 ≤ n ≤ 10
+- 0 ≤ marks[i] ≤ 100
 - length of marks arrays = 3
 
 **Output Format**  
@@ -37,7 +37,7 @@ Malika
 ```
 
 **Explanation 0**  
-Marks for Malika are $\{52, 56, 60\}$ whose average is $\frac{52+56+60}{3} \Rightarrow 56$
+Marks for Malika are **{52, 56, 60}** whose average is $\frac{52+56+60}{3} \Rightarrow 56$
 
 **Sample Input 1**
 ```python

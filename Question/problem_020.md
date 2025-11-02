@@ -38,7 +38,7 @@ A single line containing the thickness value for the logo.
 
 **Constraints**  
 The thickness must be an odd number.  
-$0 < thickness < 50$
+0 < thickness < 50
 
 **Output Format**  
 Output the desired logo.

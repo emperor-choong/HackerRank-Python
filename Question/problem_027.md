@@ -1,20 +1,20 @@
 # Merge the Tools!
 
 Consider the following:
-- A string, $s$, of length $n$ where $s=c_0c_1...c_{n-1}$.
-- An integer, $k$, where $k$ is a factor of $n$.
+- A string, **s**, of length **n** where $s=c_0c_1...c_{n-1}$.
+- An integer, **k**, where **k** is a factor of **n**.
 
-We can split $s$ into $\frac{n}{k}$ substrings where each subtring, $t_i$, consists of a contiguous block of $k$ characters in $s$. Then, use each $t_i$ to create string $u_i$ such that:
+We can split **s** into $\frac{n}{k}$ substrings where each subtring, $t_i$, consists of a contiguous block of **k** characters in **s**. Then, use each $t_i$ to create string $u_i$ such that:
 - The characters in $u_i$ are a subsequence of the characters in $t_i$.
-- Any repeat occurrence of a character is removed from the string such that each character in $u_i$ occurs exactly once. In other words, if the character at some index $j$ in $t_i$ occurs at a previous index < $j$ in $t_i$, then do not include the character in string $u_i$.
+- Any repeat occurrence of a character is removed from the string such that each character in $u_i$ occurs exactly once. In other words, if the character at some index **j** in $t_i$ occurs at a previous index **< j** in $t_i$, then do not include the character in string $u_i$.
 
-Given $s$ and $k$, print $\frac{n}{k}$ lines where each line $i$ denotes string $u_i$.
+Given **s** and **k**, print $\frac{n}{k}$ lines where each line **i** denotes string $u_i$.
 
 **Example**  
-$s$ = 'AAABCADDE'   
-$k = 3$
+**s = 'AAABCADDE'**   
+**k = 3**
 
-There are three substrings of length $3$ to consider: 'AAA', 'BCA' and 'DDE'. The first substring is all 'A' characters, so $u_1$ = 'A'. The second substring has all distinct characters, so $u_2$ = 'BCA'. The third substring has $2$ different characters, so $u_3$ = 'DE'. Note that a subsequence maintains the original order of characters encountered. The order of characters in each subsequence shown is important.
+There are three substrings of length **3** to consider: 'AAA', 'BCA' and 'DDE'. The first substring is all 'A' characters, so $u_1$ = 'A'. The second substring has all distinct characters, so $u_2$ = 'BCA'. The third substring has **2** different characters, so $u_3$ = 'DE'. Note that a subsequence maintains the original order of characters encountered. The order of characters in each subsequence shown is important.
 
 **Function Description**  
 Complete the `merge_the_tools` function in the editor below.  
@@ -26,13 +26,13 @@ Complete the `merge_the_tools` function in the editor below.
 Print each subsequence on a new line. There will be $\frac{n}{k}$ of them. No return value is expected.
 
 **Input Format**  
-The first line contains a single string, $s$.  
-The second line contains an integer, $k$, the length of each substring.
+The first line contains a single string, **s**.  
+The second line contains an integer, **k**, the length of each substring.
 
 **Constraints**
-- $1 \le n \le 10^4$, where $n$ is the length of $s$
-- $1 \le k \le n$
-- It is guaranteed that $n$ is a multiple of $k$.
+- 1 ≤ n ≤ $10^4$, where **n** is the length of **s**
+- 1 ≤ k ≤ n
+- It is guaranteed that **n** is a multiple of **k**.
 
 **Sample Input**
 ```python
@@ -50,7 +50,7 @@ AD
 ```
 
 **Explanation**  
-Split $s$ into $\frac{n}{k} = \frac{9}{3} = 3$ equal parts of length $k = 3$. Convert each $t_i$ to $u_i$ by removing any subsequent occurrences of non-distinct characters in $t_i$:
+Split **s** into $\frac{n}{k} = \frac{9}{3} = 3$ equal parts of length **k = 3**. Convert each $t_i$ to $u_i$ by removing any subsequent occurrences of non-distinct characters in $t_i$:
 1. **$t_0$ = "AAB" $\rightarrow$ $u_0$ = "AB"**
 2. **$t_1$ = "CAA" $\rightarrow$ $u_1$ = "CA"**
 3. **$t_2$ = "ADA" $\rightarrow$ $u_2$ = "AD"**

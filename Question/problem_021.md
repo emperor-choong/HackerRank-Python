@@ -1,7 +1,7 @@
 # Text Wrap
 
-You are given a string $S$ and width $w$.  
-Your task is to wrap the string into a paragraph of width $w$.
+You are given a string **S** and width **w**.  
+Your task is to wrap the string into a paragraph of width **w**.
 
 **Function Description**  
 Complete the `wrap` function in the editor below.  
@@ -13,12 +13,12 @@ Complete the `wrap` function in the editor below.
 - string: a single string with newline characters ('\n') where the breaks should be
 
 **Input Format**  
-The first line contains a string, $string$.  
-The second line contains the width, max_width.
+The first line contains a string, **string**.  
+The second line contains the width, **max_width**.
 
 **Constraints**
-- $0 < len(string) < 1000$
-- $0 <$ max_width $< len(string)$
+- 0 < len(string) < 1000
+- 0 < max_width < len(string)
 
 **Sample Input 0**
 ```python

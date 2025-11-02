@@ -1,6 +1,6 @@
 # Alphabet Rangoli
 
-You are given an integer, $N$. Your task is to print an alphabet rangoli of size $N$. (Rangoli is a form of Indian folk art based on creation of patterns.)
+You are given an integer, **N**. Your task is to print an alphabet rangoli of size **N**. (Rangoli is a form of Indian folk art based on creation of patterns.)
 
 Different sizes of alphabet rangoli are shown below:
 
@@ -60,10 +60,10 @@ rangoli has the following parameters:
 - string: a single string made up of each of the lines of the rangoli separated by a newline character (\n)
 
 **Input Format**  
-Only one line of input containing $size$, the size of the rangoli.
+Only one line of input containing **size**, the size of the rangoli.
 
 **Constraints**  
-$0 < size < 27$
+0 < size < 27
 
 **Sample Input**
 ```python
